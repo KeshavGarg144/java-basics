@@ -1,7 +1,7 @@
 import java.util.*;
 class revrse
 {
-public static void main(String s[])
+public static void main(String argss[])
 {
 int num,rev=0,r;
 Scanner sc=new Scanner(System.in);
@@ -13,6 +13,6 @@ while(num>0)
 	rev=(rev*10)+r;
 	num=num/10;
 }
-System.out.print("Revrse is= "+rev);
+System.out.print("Reverse is= "+rev);
 }
 }
